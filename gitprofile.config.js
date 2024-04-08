@@ -2,19 +2,13 @@
 
 const config = {
   github: {
-    username: '', //TODO: Your GitHub org/user name. (Required)
+    username: 'Aseem-777', //TODO: Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 4, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
-  },
-  scratch: {
-    username: '', //TODO: Your Scratch username. (Required)
-    limit: 8, // How many projects to display; maximum 20
-    sortBy: 'date', // date | views | remixes
-    corsProxy: 'https://scratchapicors-8nbi5t6td-theyoungmaker.vercel.app/', //TODO: Enter your CORS Proxy here
   },
   social: {
     //TODO: Add in Socials
@@ -127,7 +121,7 @@ const config = {
   },
   themeConfig: {
     //TODO: Change the theme of the website to your liking
-    defaultTheme: 'bumblebee',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
